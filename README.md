@@ -1,8 +1,3 @@
-Tentu, ini adalah versi `README.md` yang lebih profesional, terstruktur, dan menarik secara visual (menggunakan Markdown) berdasarkan data dan instruksi yang Anda berikan.
-
-Anda bisa menyalin kode di bawah ini dan menyimpannya sebagai file **`README.md`** di folder proyek Anda.
-
----
 
 ```markdown
 # 🧥 Fashion Studio ETL Pipeline
