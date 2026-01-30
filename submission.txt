@@ -1,0 +1,36 @@
+SUBMISSION ETL PIPELINE - FASHION STUDIO
+=========================================
+
+NAMA : Septio Yasin Tiaratomo
+Email : septioyasin8@gmail.com
+
+# membuat environment
+python -m venv env
+
+#mengaktifkan environment digunakan (windows)
+venv\Scripts\activate 
+
+# Instal dependency
+pip install -r requirements.txt
+
+# Buat otomatis requirements
+pip freeze > requirements.txt
+
+# Jalanin Skrip
+python main.py
+
+#Atur Encoding Lewat Terminal (PowerShell)
+$env:PYTHONIOENCODING = "utf-8"
+
+# Jalanin unit test yang ada di folder tests
+python test/run_test.py
+python -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+
+#Lihat Hasil Report 
+coverage report -m
+
+# Link Google Sheets:
+https://docs.google.com/spreadsheets/d/1TTBCPo8qikB2vx14S3xitJOm6UycqcMnc4ZsyaNr2GQ/edit?gid=0#gid=0
