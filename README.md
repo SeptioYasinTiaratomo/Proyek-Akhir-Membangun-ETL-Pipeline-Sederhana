@@ -54,6 +54,30 @@ pip install -r requirements.txt
 
 ---
 
+## 📂 Struktur Proyek
+
+Berikut adalah susunan direktori dan file dalam proyek ini:
+
+```text
+.
+├── tests/                  # Unit testing module
+│   ├── test_extract.py     # Test scripts for scraping logic
+│   ├── test_load.py        # Test scripts for saving data
+│   └── test_transform.py   # Test scripts for data cleaning
+├── utils/                  # ETL Utility helper functions
+│   ├── extract.py          # Logic for web scraping
+│   ├── load.py             # Logic for saving to CSV/Sheets
+│   └── transform.py        # Logic for cleaning & formatting data
+├── main.py                 # Main entry point to run the pipeline
+├── products.csv            # Output data file (generated)
+├── requirements.txt        # List of Python dependencies
+├── submission.txt          # Submission notes/details
+└── README.md               # Project documentation
+
+```
+
+---
+
 ## 🏃‍♂️ Menjalankan Pipeline
 
 Untuk menjalankan proses utama ETL (Extract → Transform → Load), jalankan perintah berikut:
@@ -122,5 +146,3 @@ Data yang telah berhasil diproses dan divalidasi dapat diakses secara publik mel
 ---
 
 *Dibuat dengan ❤️ dan ☕*
-
-```
